@@ -1,0 +1,49 @@
+/*
+
+CSS tags, class, id
+  tag normal - used for general styling
+  class .class - used for more than one item per/throughout page
+  id #id - used for one thing, making it special and it won't happen anywhere else on the page
+
+div - used for placement and layout of site; used as groups, ex: main vs. sidebar
+  div id="name"
+
+span - used for specific changes within code, working on a little piece of code you want to tweak
+
+links - different types of links to call in css
+  a:link{
+    text-decoration: ;
+    color: ;
+  }
+
+  a:visited{
+
+  }
+
+  a:hover{
+
+  }
+
+CSS box model
+  margin:
+  border:
+  padding:
+  content:
+  define width of content with width: xpx;
+  TRBL - top, right, bottom, left
+
+*/
+
+head {
+  padding: 100px;
+}
+
+#nav {
+  list-style-type: none;
+  margin:0 auto;
+  background-color: #FCD303;
+  color: white;
+
+  /*LINKS*/
+
+}
