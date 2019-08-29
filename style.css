@@ -38,8 +38,23 @@ CSS box model
 Font-Family: 'Playfair Display', Serif; Font-Size: 48px;
 Font-Family: 'Source Sans Pro', Sans-Serif; Font-Size: 16px; */
 
+/* COLORS:
+#28536B
+#C2948A
+#7EA8BE
+#F6F0ED */
+
 
 /* NAVIGATION STYLING */
+body {
+  text-align: center;
+  background-color: #F6F0ED;
+}
+
+img {
+  border: none;
+}
+
 #nav {
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif; font-size: 16px; text-transform: uppercase;
@@ -53,15 +68,28 @@ Font-Family: 'Source Sans Pro', Sans-Serif; Font-Size: 16px; */
 
 #nav a:link, #nav a:visited {
   display: block;
-  color: #FCD303;
-  background-color: #fff;
+  color: #28536B;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
   padding: 6px;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
-#nav a:hover, a:active {
+#nav a:hover, #nav a:active {
   color: #fff;
-  background-color: #FCD303;
+  background-color: #28536B;
+}
+
+a:link, a:visited {
+  color: #7EA8BE;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #28536B;
 }
 
 
@@ -78,27 +106,41 @@ h3 {
   font-family: 'Playfair Display', Serif; font-size: 28px; font-style: italic;
 }
 
+h4 {
+  font-family: 'Montserrat', sans-serif; font-size: 25px; text-transform: uppercase; letter-spacing: 4px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif; font-size: 20px; text-transform: uppercase; letter-spacing: 1px;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: bold; text-transform: uppercase;
+}
+
 p {
   font-family: 'Source Sans Pro', sans-serif; font-size: 16px;
 }
 
 .caption {
   font-family: 'Playfair Display', Serif;
-  font-size: 12px;
+  font-size: 14px;
+  color: #C2948A;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 0;
+  margin-top: 10px;
   padding: 10px;
 }
 
 #footer {
   font-family: 'Playfair Display', Serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  margin-top: 0;
-  padding: 10px;
-  background-color: #ccc;
+  margin: 0;
+  padding: 20px;
+  background-color: #C2948A;
+  color: white;
 }
