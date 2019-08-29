@@ -95,23 +95,23 @@ a:hover {
 
 /* FONT STYLING */
 h1 {
-  font-family: 'Playfair Display', Times, Serif; font-size: 48px; font-weight: bold; font-style: italic; color: ##7EA8BE;
+  font-family: 'Playfair Display', Times, Serif; font-size: 48px; font-weight: bold; font-style: italic; color: #28536B;
 }
 
 h2 {
-  font-family: 'Playfair Display', Times, Serif; font-size: 32px; font-weight: bold; font-style: italic; color: ##7EA8BE;
+  font-family: 'Playfair Display', Times, Serif; font-size: 32px; font-weight: bold; font-style: italic; color: #28536B;
 }
 
 h3 {
-  font-family: 'Playfair Display', Times, Serif; font-size: 28px; font-style: italic; color: ##7EA8BE;
+  font-family: 'Playfair Display', Times, Serif; font-size: 28px; font-style: italic; color: #28536B;
 }
 
 h4 {
-  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 25px; text-transform: uppercase; letter-spacing: 4px; color: ##7EA8BE;
+  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 25px; text-transform: uppercase; letter-spacing: 4px; color: #28536B; text-decoration: underline;
 }
 
 h5 {
-  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 20px; text-transform: uppercase; letter-spacing: 1px; color: #28536B;
+  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 20px; text-transform: uppercase; letter-spacing: 1px; color: #28536B; text-decoration: underline;
 }
 
 h6 {
