@@ -59,7 +59,7 @@ Font-Family: 'Source Sans Pro', Sans-Serif; Font-Size: 16px; */
   padding: 6px;
 }
 
-#nav a:hover a:active {
+#nav a:hover, a:active {
   color: #fff;
   background-color: #FCD303;
 }
