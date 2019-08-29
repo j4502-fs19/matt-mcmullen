@@ -1,4 +1,4 @@
-/*
+/* NOTES:
 
 CSS tags, class, id
   tag normal - used for general styling
@@ -34,16 +34,71 @@ CSS box model
 
 */
 
-head {
-  padding: 100px;
+/* FONTS
+Font-Family: 'Playfair Display', Serif; Font-Size: 48px;
+Font-Family: 'Source Sans Pro', Sans-Serif; Font-Size: 16px; */
+
+
+/* NAVIGATION STYLING */
+#nav {
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif; font-size: 16px; text-transform: uppercase;
+/* Removes bullets */
+  list-style-type: none;
 }
 
-#nav {
-  list-style-type: none;
-  margin:0 auto;
+#nav li {
+  border-bottom: 1px solid white;
+}
+
+#nav a:link, #nav a:visited {
+  display: block;
+  color: #FCD303;
+  background-color: #fff;
+  text-align: center;
+  padding: 6px;
+}
+
+#nav a:hover a:active {
+  color: #fff;
   background-color: #FCD303;
-  color: white;
+}
 
-  /*LINKS*/
 
+/* FONT STYLING */
+h1 {
+  font-family: 'Playfair Display', Serif; font-size: 48px; font-weight: bold; font-style: italic;
+}
+
+h2 {
+  font-family: 'Playfair Display', Serif; font-size: 32px; font-weight: bold; font-style: italic;
+}
+
+h3 {
+  font-family: 'Playfair Display', Serif; font-size: 28px; font-style: italic;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif; font-size: 16px;
+}
+
+.caption {
+  font-family: 'Playfair Display', Serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px;
+}
+
+#footer {
+  font-family: 'Playfair Display', Serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px;
+  background-color: #ccc;
 }
