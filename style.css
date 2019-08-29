@@ -57,7 +57,7 @@ img {
 
 #nav {
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif; font-size: 16px; text-transform: uppercase;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif; font-size: 16px; text-transform: uppercase;
 /* Removes bullets */
   list-style-type: none;
 }
@@ -95,35 +95,35 @@ a:hover {
 
 /* FONT STYLING */
 h1 {
-  font-family: 'Playfair Display', Serif; font-size: 48px; font-weight: bold; font-style: italic;
+  font-family: 'Playfair Display', Times, Serif; font-size: 48px; font-weight: bold; font-style: italic; color: ##7EA8BE;
 }
 
 h2 {
-  font-family: 'Playfair Display', Serif; font-size: 32px; font-weight: bold; font-style: italic;
+  font-family: 'Playfair Display', Times, Serif; font-size: 32px; font-weight: bold; font-style: italic; color: ##7EA8BE;
 }
 
 h3 {
-  font-family: 'Playfair Display', Serif; font-size: 28px; font-style: italic;
+  font-family: 'Playfair Display', Times, Serif; font-size: 28px; font-style: italic; color: ##7EA8BE;
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif; font-size: 25px; text-transform: uppercase; letter-spacing: 4px;
+  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 25px; text-transform: uppercase; letter-spacing: 4px; color: ##7EA8BE;
 }
 
 h5 {
-  font-family: 'Montserrat', sans-serif; font-size: 20px; text-transform: uppercase; letter-spacing: 1px;
+  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 20px; text-transform: uppercase; letter-spacing: 1px; color: #28536B;
 }
 
 h6 {
-  font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: bold; text-transform: uppercase;
+  font-family: 'Roboto', Helvetica, sans-serif; font-size: 16px; font-weight: bold; text-transform: uppercase; color: #28536B;
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif; font-size: 16px;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif; font-size: 16px; color: #28536B;
 }
 
 .caption {
-  font-family: 'Playfair Display', Serif;
+  font-family: 'Playfair Display', Times, Serif;
   font-size: 14px;
   color: #C2948A;
   font-weight: bold;
@@ -134,7 +134,7 @@ p {
 }
 
 #footer {
-  font-family: 'Playfair Display', Serif;
+  font-family: 'Playfair Display', Times, Serif;
   font-size: 14px;
   font-weight: bold;
   font-style: italic;
