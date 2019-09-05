@@ -125,7 +125,7 @@ p {
 .caption {
   font-family: 'Playfair Display', Times, Serif;
   font-size: 14px;
-  color: #C2948A;
+  color: #28536B;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -141,6 +141,6 @@ p {
   text-align: center;
   margin: 0;
   padding: 20px;
-  background-color: #C2948A;
-  color: white;
+  background-color: #FFD419;
+  color: #28536B;
 }
