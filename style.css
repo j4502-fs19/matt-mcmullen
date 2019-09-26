@@ -32,6 +32,15 @@ CSS box model
   define width of content with width: xpx;
   TRBL - top, right, bottom, left
 
+MEDIA QUERIES
+
+#container {
+  width: 80%;
+  maximum-width:
+}
+
+^^^This helps allow some white space on left and right of content
+
 */
 
 /* FONTS
@@ -49,6 +58,7 @@ NAVY: #28536B */
 body {
   text-align: center;
   background-color: #F8F8FB;
+  font-size: 16px;
 }
 
 img {
@@ -95,31 +105,31 @@ a:hover {
 
 /* FONT STYLING */
 h1 {
-  font-family: 'Playfair Display', Helvetica, sans-serif; font-size: 48px; font-weight: bold; font-style: italic; color: #2E54FF;
+  font-family: 'Playfair Display', Helvetica, sans-serif; font-size: 3em; font-weight: bold; font-style: italic; color: #2E54FF;
 }
 
 h2 {
-  font-family: 'Playfair Display', Helvetica, sans-serif; font-size: 32px; font-weight: bold; font-style: italic; color: #2E54FF;
+  font-family: 'Playfair Display', Helvetica, sans-serif; font-size: 2.5em; font-weight: bold; font-style: italic; color: #2E54FF;
 }
 
 h3 {
-  font-family: 'Playfair Display', Helvetica, sans-serif; font-size: 28px; font-style: italic; color: #2E54FF;
+  font-family: 'Playfair Display', Helvetica, sans-serif; font-size: 2em; font-style: italic; color: #2E54FF;
 }
 
 h4 {
-  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 25px; text-transform: uppercase; letter-spacing: 4px; color: #28536B; text-decoration: underline;
+  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.5em; text-transform: uppercase; letter-spacing: 4px; color: #28536B; text-decoration: underline;
 }
 
 h5 {
-  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 20px; text-transform: uppercase; letter-spacing: 1px; color: #28536B; text-decoration: underline;
+  font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1em; text-transform: uppercase; letter-spacing: 1px; color: #28536B; text-decoration: underline;
 }
 
 h6 {
-  font-family: 'Roboto', Helvetica, sans-serif; font-size: 16px; font-weight: bold; text-transform: uppercase; color: #28536B;
+  font-family: 'Roboto', Helvetica, sans-serif; font-size: 1em; font-weight: bold; text-transform: uppercase; color: #28536B;
 }
 
 p {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif; font-size: 16px; color: #28536B;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif; font-size: 1em; color: #28536B;
 }
 
 .caption {
@@ -143,4 +153,24 @@ p {
   padding: 20px;
   background-color: #FFD419;
   color: #28536B;
+}
+
+/* -----MEDIA QUERIES----- */
+
+@media screen and (min-width:599px){
+  body {
+    background-color: white;
+    font-size: 1em;
+  }
+  #container {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width:799px){
+  body{
+    h1{
+      font-size: 0.85em;
+    }
+  }
 }
