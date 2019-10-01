@@ -176,9 +176,4 @@ p {
 }
 
 @media screen and (min-width:799px){
-  body{
-    h1{
-      font-size: 0.85em;
-    }
-  }
 }
