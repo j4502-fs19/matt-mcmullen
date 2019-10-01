@@ -55,10 +55,18 @@ NAVY: #28536B */
 
 
 /* NAVIGATION STYLING */
+#nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 body {
   text-align: center;
   background-color: #F8F8FB;
   font-size: 16px;
+  padding: 2em;
+  margin: 0;
 }
 
 img {
@@ -162,8 +170,8 @@ p {
     background-color: white;
     font-size: 1em;
   }
-  #container {
-    max-width: 80%;
+  #nav {
+    flex-direction: row;
   }
 }
 
