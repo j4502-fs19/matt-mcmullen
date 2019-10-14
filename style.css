@@ -144,7 +144,7 @@ p {
 
 .caption {
   font-family: 'Playfair Display', Times, Serif;
-  font-size: 14px;
+  font-size: 13px;
   color: #28536B;
   font-weight: bold;
   text-transform: uppercase;
@@ -224,7 +224,7 @@ p {
 
 @media screen and (min-width: 1399px){
   body {
-    max-width: 75%;
+    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
