@@ -76,10 +76,24 @@ img {
 }
 
 #nav {
-  padding: 0;
+  padding: 10px;
   font-family: 'Montserrat', Helvetica, sans-serif; font-size: 16px; text-transform: uppercase;
 /* Removes bullets */
   list-style-type: none;
+}
+
+.header {
+  display: flex;
+  order: 1;
+}
+
+.header #nav {
+  display: none;
+  order: 2;
+}
+
+.menu-trigger {
+  justify-content: flex-end;
 }
 
 #nav li {
@@ -196,6 +210,12 @@ p {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
+  }
+  .menu-trigger {
+    display: none;
+  }
+  .header #nav {
+    display: block;
   }
 }
 

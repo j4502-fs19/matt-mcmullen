@@ -11,6 +11,11 @@
      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
+
+     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+     <script src="js.js" type="text/javascript"></script>
+
+
      <title>Matt McMullen's website</title>
 
      <meta http-equiv="content-type"
@@ -24,11 +29,14 @@
       <div class="header">
         <h1>Matt McMullen</h1>
 
+        <a class="menu-trigger" href="#">&#9776;</a>
+
         <ul id="nav">
           <li id="home"><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
+      </div>
 
       <div class="grid">
 
@@ -46,6 +54,26 @@
             <img src="images/PizzaTree_Banner.png" alt="Pizza Tree" />
             <h2>Pizza Tree</h2>
           </div>
+
+      </div>
+
+      <div class="form">
+        <h1>Form</h1>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="John Doe">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="johndoe@gmail.com">
+
+          <label for="dessert">Pick your dessert</label>
+          <input id="dessert" name="desserts" type="text" list="desserts">
+          <datalist id="desserts">
+            <option value="Cake">
+            <option value="Cupcake">
+          </datalist>
+
+          <label for="dtpickup">Pickup Date</label>
+          <input id="dtpickup" name="dtpickup" type="Date">
 
       </div>
 
