@@ -4,29 +4,40 @@
    <html xmlns="http://www.w3.org/1999/xhtml">
 
    <head>
-     <link rel="stylesheet" type="text/css" href="style.css" />
+
+     <link rel="stylesheet" type="text/css" href="style.css">
 
      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
+
+     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+     <script src="js.js" type="text/javascript"></script>
+
+
      <title>Matt McMullen's website</title>
 
      <meta http-equiv="content-type"
        content="text/html;charset=utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
      </head>
 
-    <body>
+    <body id="container">
 
-      <h1>Contact Me</h1>
+      <div class="header">
+        <div class="top">
+          <h1>Matt McMullen</h1>
+          <a class="menu-trigger" href="#">&#9776;</a>
+        </div>
 
         <ul id="nav">
-          <li><a href="index.html">Home</a></li>
+          <li id="home"><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
-
-      <p>CONTACT INFORMATION</p>
+      </div>
 
       <h3>Email me:</h3>
       <p><a href="mailto:mcmlmatt@gmail.com"><img src="images/headshot.jpg" alt="Matt McMullen" width="300px" /></a>
